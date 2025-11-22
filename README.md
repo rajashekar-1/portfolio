@@ -1,4 +1,3 @@
-# portfolio
 # Portfolio – T. Raja Shekar
 
 ### Contact Info
@@ -15,6 +14,7 @@ AWS & DevOps Enthusiast passionate about Cloud deployments, CI/CD, Linux, and au
 
 ### Profile Photo
 ![Profile Photo](assets/profile.jpg)
+![DSC_0005](https://github.com/user-attachments/assets/f7681098-2c3d-4819-be58-1b97d40170b6)
 
 ---
 
