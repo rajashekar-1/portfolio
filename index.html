@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -10,33 +10,56 @@
   <header class="hero">
     <img src="assets/profile.jpg" class="profile-pic" alt="Profile">
     <h1>Hi, I'm <span class="highlight">T Rajashekar</span></h1>
-    <p class="subtitle">AWS DevOps Engineer</p>
+    <p class="subtitle">AWS & DevOps Engineer</p>
     <p class="description">
-      Cloud enthusiast skilled in CI/CD automation, AWS infrastructure, and Kubernetes deployments. 
-      Passionate about building high-availability systems.
+      Cloud enthusiast skilled in CI/CD automation, AWS infrastructure, Kubernetes, and Terraform. Passionate about building high-availability systems.
     </p>
-    <a href="T-Rajashekar-resume.pdf" class="btn" download>📄 Download Resume</a>
+    <a href="resume.pdf" class="btn" download>📄 Download Resume</a>
   </header>
+
+  <nav class="nav-bar">
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="skills">
+    <h2>💡 Skills</h2>
+    <div class="skills-grid">
+      <span class="skill">AWS (EC2, EKS, S3, RDS)</span>
+      <span class="skill">Kubernetes & Helm</span>
+      <span class="skill">Terraform</span>
+      <span class="skill">Docker</span>
+      <span class="skill">Jenkins / GitHub Actions</span>
+      <span class="skill">Python / Bash</span>
+      <span class="skill">Prometheus & Grafana</span>
+      <span class="skill">CI/CD & Automation</span>
+    </div>
+  </section>
 
   <section id="projects">
     <h2>🚀 Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="assets/project-1.png" alt="CI/CD Project">
+        <h3>CI/CD Pipeline - AWS EKS</h3>
+        <p>Automated deployment using Jenkins, Docker, Helm & Kubernetes.</p>
+        <a href="#" target="_blank">🔗 GitHub Repo</a>
+      </div>
 
-    <div class="project">
-      <h3>CI/CD Pipeline - AWS EKS</h3>
-      <p>Automated deployment using Jenkins, Docker, Helm & Kubernetes.</p>
-      <a href="#" target="_blank">🔗 GitHub Repo</a>
-    </div>
+      <div class="project-card">
+        <img src="assets/project-2.png" alt="Terraform Infra">
+        <h3>Terraform AWS Infrastructure</h3>
+        <p>Provisioned scalable VPC, EC2, RDS & IAM roles using modules.</p>
+        <a href="#" target="_blank">🔗 GitHub Repo</a>
+      </div>
 
-    <div class="project">
-      <h3>Terraform AWS Infrastructure</h3>
-      <p>Provisioned scalable VPC, EC2, RDS & IAM roles using modules.</p>
-      <a href="#" target="_blank">🔗 GitHub Repo</a>
-    </div>
-
-    <div class="project">
-      <h3>Monitoring & Alerting</h3>
-      <p>Prometheus + Grafana dashboards with Slack alerting.</p>
-      <a href="#" target="_blank">🔗 GitHub Repo</a>
+      <div class="project-card">
+        <img src="assets/project-3.png" alt="Monitoring">
+        <h3>Monitoring & Alerting</h3>
+        <p>Prometheus + Grafana dashboards with Slack notifications.</p>
+        <a href="#" target="_blank">🔗 GitHub Repo</a>
+      </div>
     </div>
   </section>
 
@@ -48,8 +71,10 @@
   </section>
 
   <footer>
-    <p>© 2025 Rajashekar | Hosted on GitHub Pages</p>
+    <p>© 2025 T Rajashekar | Hosted on GitHub Pages</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
 
