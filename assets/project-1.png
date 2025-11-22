@@ -1,0 +1,10 @@
+portfolio/
+│
+├── index.html
+├── style.css
+├── script.js   (optional now)
+│
+└── assets/
+     ├── profile.jpg
+     ├── project-1.png
+     ├── project-2.png
