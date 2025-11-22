@@ -1,4 +1,4 @@
-# – T. Raja Shekar
+# T. Raja Shekar
 
 ### Contact Info
 📞 9603653953  
